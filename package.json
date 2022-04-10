@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/robsonkelly/teste-ebac-ui#readme",
   "devDependencies": {
-    "cypress": "^9.5.2"
+    "cypress": "^9.5.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^6.1.2"
   }
 }
