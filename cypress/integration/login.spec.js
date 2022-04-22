@@ -28,7 +28,7 @@ context ('Funcionalidade Login', () =>{
         cy.get('a > .hidden-xs') .should ('contain' , 'Welcome') 
         
     });
-    it.only('faze login - usando fixtures', () => {
+    it('faze login - usando fixtures', () => {
         cy.fixture ('perfil').then (dados => { 
         cy.get('#username').type (dados.usuario)
         cy.get('#password').type (dados.senha, {log: false})
